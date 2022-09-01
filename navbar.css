@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.navbar {
+    position:fixed;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    justify-content:space-around;
+    overflow: hidden;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.logonav {
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+
+.linknav {
+    text-decoration: none;
+    margin-top: 1.7%;
+    float: left;
+    color: rgb(120, 120, 120);
+    font-family: 'Arial Narrow Bold';
+}
+
+.linknav:hover {
+    color: black;
+}
+
+.videonav {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: 1.2%;
+    margin-right: 10%;
+    color: rgb(120, 120, 120);
+    font-family: 'Arial Narrow Bold';
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: rgb(120, 120, 120);
+    height: 35px;
+    min-width: fit-content;
+    width: 10%;
+}
+
+.videonav:hover {
+    color: black;
+    border-color: black;
+    margin-bottom: 1%;
+}
+
+.pnav {
+    float: left;
+
+
+    margin-top: 1.7%;
+    color: rgb(120, 120, 120);
+
+}
+
+.pvideonav{
+    margin-top: 5%;
+    text-align: center;
+}
